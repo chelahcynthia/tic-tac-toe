@@ -4,4 +4,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.gameboard{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px black;
+
 }
