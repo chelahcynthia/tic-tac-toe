@@ -2,9 +2,9 @@ import Cell from './components/Cell'
 
 const App  = () =>  {
   return <div className="app">
-    <div className='gamevoard'>
+    <div className='gameboard'>
 
-    {/* <Cell /> */}
+    <Cell />
     </div>
     <p>Chelaaahh</p>
   </div>;
