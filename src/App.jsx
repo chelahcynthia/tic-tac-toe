@@ -18,6 +18,7 @@ const App  = () =>  {
       cell={cell} 
       setCells={setCells} 
       go={go} 
+      setGo={setGo} 
       />
       )}
 
