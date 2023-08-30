@@ -4,6 +4,10 @@ export default function cell({ id, cell, setCells }) {
   const handleClick = (e) => {
     const taken = e.target.firstChild.classList.contains("circle") || 
     e.target.firstChild.classList.contains("cross")
+
+    if (!taken) {
+      
+    }
    
   };
 

@@ -16,7 +16,9 @@ const App  = () =>  {
       key={index} 
       id={index} 
       cell={cell} 
-      setCells={setCells} />
+      setCells={setCells} 
+      go={go} 
+      />
       )}
 
     
