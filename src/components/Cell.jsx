@@ -32,7 +32,7 @@ export default function cell({ id, cell, setCells, go, setGo, cells, winningMess
   };
 
   return (
-    <div className="square" id={id} onClick={ winningMessage && handleClick}>
+    <div className="square" id={id} onClick={ !winningMessage && handleClick}>
       <div className={cell}></div>
     </div>
   );
