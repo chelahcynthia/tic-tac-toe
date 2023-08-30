@@ -6,7 +6,7 @@
 You can try out the game here: Tic-Tac-Toe Demo
 
  ## Getting Started
-## Prerequisites
+### Prerequisites
 Before you begin, ensure you have the following installed:
 
 Node.js: You'll need Node.js to run the development server.
